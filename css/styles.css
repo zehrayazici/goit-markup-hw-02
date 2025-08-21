@@ -1,0 +1,217 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2e2f42;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.logo img {
+  display: block;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-menu a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #404bbf;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.contact a {
+  font-size: 14px;
+  color: #434455;
+  transition: color 0.3s;
+}
+
+.contact a:hover {
+  color: #404bbf;
+}
+
+/* Hero */
+.head {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 120px 20px;
+  color: #ffffff;
+}
+
+.head h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.head .button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.head .button:hover {
+  background-color: #404bbf;
+}
+
+/* Studio */
+.studio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 80px 50px;
+  background-color: #ffffff;
+}
+
+.studioo h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2e2f42;
+}
+
+.studioo p {
+  font-size: 16px;
+  color: #434455;
+}
+
+/* Team */
+.team {
+  text-align: center;
+  padding: 80px 50px;
+  background-color: #f4f4fd;
+}
+
+.team h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.teams {
+  font-size: 0;
+}
+
+.teamss {
+  display: inline-block;
+  vertical-align: top;
+  width: 22%;
+  margin: 0 1% 20px 1%;
+  font-size: 16px;
+}
+
+
+.teamss h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.teamss p {
+  font-size: 14px;
+  color: #434455;
+}
+
+/* Portfolio */
+.portfolio {
+  padding: 80px 50px;
+  background-color: #ffffff;
+}
+
+.portfolio h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects {
+  font-size: 0; 
+}
+
+.project {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;          
+  margin: 0 1% 20px 1%;
+  font-size: 16px;     
+}
+
+
+.project img {
+  width: 100%;
+  display: block;
+}
+
+.project h3 {
+  font-size: 20px;
+  margin: 15px 0 5px;
+}
+
+.project p {
+  font-size: 14px;
+  color: #434455;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+  padding: 40px 50px;
+  text-align: left;
+}
+
+.footer img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+  max-width: 400px;
+}            
